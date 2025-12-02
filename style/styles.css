@@ -1,0 +1,186 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 16px 180px 16px 180px;
+}
+
+.left-text {
+    color: white;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.section-one {
+    display: flex;
+    padding: 100px 180px 100px 180px;
+    gap: 14px;
+    background-color: #1F2937;
+}
+
+.left-one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 0;
+}
+
+.right-one {
+    flex: 1 1 0;
+    color: white;
+    background-color: rgb(119, 125, 135);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 28px 8px 28px;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+.section-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 240px 100px 240px;
+    gap: 18px;
+    align-items: center;
+}
+
+.image {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    height: 160px;
+}
+
+.cards {
+    display: flex;
+    gap: 36px;
+}
+
+.card p {
+    color: #1F2937;
+    text-align: center;
+}
+
+
+
+
+.section-three {
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 240px 70px 240px;
+    gap: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.thor {
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.section-four {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px 80px 0px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    width: fit-content;
+    padding: 30px 90px 30px 90px;
+    border-radius: 6px;
+    gap: 120px;
+}
+
+.call {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+}
+
+.subtext {
+    color: rgba(255, 255, 255, 0.827);
+    margin: 0;
+    font-size: 12px;
+}
+
+.box button {
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+.footer {
+    color: rgba(255, 255, 255, 0.703);
+    font-size: 12px;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
